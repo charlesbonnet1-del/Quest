@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+# Service worker généré par Serwist au build
+public/sw.js
+public/sw.js.map
+public/swe-worker-*.js
+# Reprise de la génération audio
+.audio-cache/
+# Retours stockés localement en dev
+.data/

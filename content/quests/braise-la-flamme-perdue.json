@@ -1,0 +1,318 @@
+{
+  "id": "braise-la-flamme-perdue",
+  "titre": "Braise et la flamme perdue",
+  "resume": "CONTENU PROVISOIRE — Braise, un jeune dragon, a perdu sa flamme. Pour la rallumer, il a besoin d'étincelles d'aventure : des couleurs, des sons et des mouvements.",
+  "provisoire": true,
+  "heros": { "id": "braise", "nom": "Braise" },
+  "dureeEstimeeMin": 30,
+  "distanceEstimeeM": 1300,
+  "age": { "min": 6, "max": 10 },
+  "introSecurite": {
+    "id": "intro-securite",
+    "voix": "narrateur",
+    "texte": "Bonjour ! Avant de partir, un petit mot pour les grands. Vous restez responsables de la surveillance de votre enfant. Choisissez un endroit sans circulation, et gardez toujours l'enfant en vue. Le héros ne dira jamais où aller : c'est vous qui choisissez le chemin. Et vous, les aventuriers, vous restez près de votre adulte, d'accord ? Parfait. Rangez le téléphone dans une poche ou dans un sac, et ouvrez grand les yeux et les oreilles. L'aventure commence."
+  },
+  "introduction": {
+    "id": "introduction",
+    "voix": "heros",
+    "texte": "Psst... Psst ! C'est moi, Braise. Oui, un vrai dragon ! Bon, un petit dragon. Ce matin, j'ai éternué très fort, atchoum, et ma flamme s'est envolée. Pfft ! Partie ! Sans flamme, un dragon, c'est juste un gros lézard qui a froid aux pattes. Mais j'ai un plan. Une flamme de dragon, ça se rallume avec des étincelles d'aventure. Et les meilleures étincelles, ce sont les enfants qui les trouvent, en marchant et en regardant partout. Alors on y va ? Marche avec ton adulte, je te parle bientôt."
+  },
+  "events": [
+    {
+      "id": "e1-rencontre",
+      "titre": "Braise se présente",
+      "type": "histoire",
+      "declencheur": { "distanceM": 80, "ecartMinS": 45 },
+      "variantes": {
+        "default": [
+          {
+            "id": "e1-default",
+            "voix": "heros",
+            "texte": "Tu marches drôlement bien, dis donc ! Moi, je marche en me dandinant, à cause de ma queue. Je vais te raconter un secret. Chez les dragons, on n'a pas besoin de cracher du feu pour être courageux. Le vrai courage, c'est d'ouvrir les yeux et de remarquer les choses que personne ne voit. Une couleur, un bruit, un mouvement... Chaque chose que tu remarques, hop, ça me fait une étincelle. J'en ai besoin de quatre. Tu m'aides ? Super. Continue de marcher, je réfléchis à ta première mission."
+          }
+        ],
+        "ville": [
+          {
+            "id": "e1-ville",
+            "voix": "heros",
+            "texte": "Ouah, la ville ! Que de bruits, que de murs, que de fenêtres ! Tu sais, moi, je vis dans une montagne, alors tout ça, c'est nouveau. Derrière chaque fenêtre, il y a peut-être quelqu'un qui boit un chocolat chaud. Miam. Bon, concentre-toi, Braise ! Écoute, petit aventurier : pour rallumer ma flamme, il me faut quatre étincelles d'aventure. Et la ville en est pleine, si on sait regarder. Reste bien sur le trottoir avec ton adulte, et continue de marcher. Je prépare ta première mission."
+          }
+        ],
+        "parc": [
+          {
+            "id": "e1-parc",
+            "voix": "heros",
+            "texte": "Ah, un parc ! J'adore les parcs. Il y a de l'herbe toute douce pour se rouler dedans, et des arbres pour faire la sieste à l'ombre. La dernière fois, je me suis endormi sous un arbre et un pigeon s'est posé sur mon nez. Il m'a regardé, j'ai fait atchoum, et il s'est envolé si vite qu'il a oublié une plume. Bref. Pour rallumer ma flamme, il me faut quatre étincelles d'aventure. Ici, il y en a partout. Continue de marcher avec ton adulte, je prépare ta première mission."
+          }
+        ],
+        "foret": [
+          {
+            "id": "e1-foret",
+            "voix": "heros",
+            "texte": "Chut... Tu entends ? Nous sommes dans une forêt. Les forêts, c'est la maison de mes cousins, les dragons des bois. Ils sont tout verts et ils sentent la mousse. Ici, chaque arbre est très vieux, et il a vu passer plein d'aventuriers. Peut-être même des chevaliers ! Pour rallumer ma flamme, il me faut quatre étincelles d'aventure, et la forêt en cache beaucoup. Reste sur le chemin avec ton adulte, et ouvre grand les yeux. Je prépare ta première mission."
+          }
+        ],
+        "bord_eau": [
+          {
+            "id": "e1-bord-eau",
+            "voix": "heros",
+            "texte": "Oh là là, de l'eau ! Tu sais quoi ? Les dragons de feu et l'eau, ce n'est pas une grande histoire d'amour. Une goutte sur le museau et pschitt, plus d'étincelle. Alors on va rester bien au sec, d'accord ? On regarde l'eau de loin, et on garde les pieds sur le chemin, à côté de ton adulte. Mais l'eau est très jolie : elle brille, elle bouge, elle fait des reflets. Pour ma flamme, il me faut quatre étincelles d'aventure. Continue de marcher, je prépare ta première mission."
+          }
+        ],
+        "campagne": [
+          {
+            "id": "e1-campagne",
+            "voix": "heros",
+            "texte": "Ah, la campagne ! Ça sent l'herbe, la terre, et peut-être un peu la vache. Je plaisante. Quoique. Ici, il y a de la place, du ciel partout, et des champs à perte de vue. Quand j'étais bébé dragon, je jouais à cache-cache dans les champs de blé. Le problème, c'est que ma queue dépassait toujours. Bref ! Pour rallumer ma flamme, il me faut quatre étincelles d'aventure. Reste sur le chemin avec ton adulte, et continue de marcher. Je prépare ta première mission."
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2-couleur-du-feu",
+      "titre": "La couleur du feu",
+      "type": "defi",
+      "declencheur": { "distanceM": 300, "ecartMinS": 60 },
+      "defi": {
+        "type": "observation",
+        "parentConfirme": true,
+        "attenteS": 20,
+        "bravo": {
+          "id": "e2-bravo",
+          "voix": "heros",
+          "texte": "Bravo ! Je sens quelque chose de tout chaud dans mon ventre. C'est ta première étincelle ! Une de trouvée, plus que trois. Continue de marcher, mon ami."
+        }
+      },
+      "variantes": {
+        "default": [
+          {
+            "id": "e2-default",
+            "voix": "heros",
+            "texte": "Première mission ! Ma flamme était rouge et orange, comme un coucher de soleil. Alors voilà : sans t'éloigner de ton adulte, trouve avec tes yeux quelque chose de rouge ou d'orange. N'importe quoi : une fleur, un panneau, un vêtement, une feuille. Pas besoin d'y toucher, il suffit de le montrer du doigt à ton adulte. Et quand tu l'as trouvé, ton adulte appuiera sur le bouton. Prêt ? Cherche bien. Je compte sur toi."
+          }
+        ],
+        "ville": [
+          {
+            "id": "e2-ville",
+            "voix": "heros",
+            "texte": "Première mission ! Ma flamme était rouge et orange. En ville, il y a plein de choses de ces couleurs-là, mais elles se cachent. Sans t'éloigner de ton adulte, trouve avec tes yeux quelque chose de rouge ou d'orange. Une porte, une boîte aux lettres, un panneau, une affiche, un manteau. Montre-le du doigt, sans y toucher. Quand ton adulte est d'accord, il appuie sur le bouton. Allez, ouvre l'œil, détective !"
+          }
+        ],
+        "parc": [
+          {
+            "id": "e2-parc",
+            "voix": "heros",
+            "texte": "Première mission ! Ma flamme était rouge et orange, comme les feuilles d'automne. Dans un parc, il y a toujours une petite couleur de feu quelque part. Sans t'éloigner de ton adulte, cherche avec tes yeux quelque chose de rouge ou d'orange : une fleur, une feuille, un banc, un toboggan, un ballon. Montre-le du doigt, sans le cueillir. Quand ton adulte est d'accord, il appuie sur le bouton. Je t'attends !"
+          }
+        ],
+        "foret": [
+          {
+            "id": "e2-foret",
+            "voix": "heros",
+            "texte": "Première mission ! Ma flamme était rouge et orange. Dans la forêt, c'est surtout vert et marron, alors c'est un vrai défi de dragon. Sans quitter le chemin, cherche avec tes yeux un petit bout de rouge ou d'orange : une feuille, une baie, une écorce, un champignon. Attention, on regarde mais on ne touche pas, et surtout on ne goûte jamais. Montre-le à ton adulte. Quand il est d'accord, il appuie sur le bouton."
+          }
+        ],
+        "bord_eau": [
+          {
+            "id": "e2-bord-eau",
+            "voix": "heros",
+            "texte": "Première mission ! Ma flamme était rouge et orange. Au bord de l'eau, ces couleurs se cachent sur les bateaux, les bouées, les vêtements des promeneurs, ou même dans les reflets du soleil. Reste bien sur le chemin, à côté de ton adulte, et cherche avec tes yeux quelque chose de rouge ou d'orange. Montre-le du doigt. Quand ton adulte est d'accord, il appuie sur le bouton. Je croise les griffes !"
+          }
+        ],
+        "campagne": [
+          {
+            "id": "e2-campagne",
+            "voix": "heros",
+            "texte": "Première mission ! Ma flamme était rouge et orange. À la campagne, cherche bien : un coquelicot, une pomme, un tracteur, un toit en tuiles, une barrière. Sans t'éloigner de ton adulte et sans entrer dans les champs, trouve avec tes yeux quelque chose de rouge ou d'orange. Montre-le du doigt. Quand ton adulte est d'accord, il appuie sur le bouton. Allez, œil de dragon, activé !"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3-oreilles-de-dragon",
+      "titre": "Les oreilles de dragon",
+      "type": "defi",
+      "declencheur": { "distanceM": 550, "ecartMinS": 90 },
+      "defi": {
+        "type": "ecoute",
+        "parentConfirme": false,
+        "attenteS": 30,
+        "bravo": {
+          "id": "e3-bravo",
+          "voix": "heros",
+          "texte": "Trois sons ! Tu as des oreilles de dragon, c'est officiel. Et hop, deuxième étincelle ! Ma queue commence à chauffer. On peut repartir."
+        }
+      },
+      "variantes": {
+        "default": [
+          {
+            "id": "e3-default",
+            "voix": "heros",
+            "texte": "Deuxième mission ! Les dragons ont des oreilles extraordinaires. On va voir si tu as les mêmes. Arrêtez-vous un instant, toi et ton adulte. Bien. Maintenant, sans bouger, écoute très fort. Essaie de compter trois sons différents. Un son proche, un son lointain, et un son bizarre. Tu as trente secondes. Ensuite, raconte-les à ton adulte. Chut... On écoute."
+          }
+        ],
+        "ville": [
+          {
+            "id": "e3-ville",
+            "voix": "heros",
+            "texte": "Deuxième mission ! En ville, il y a tellement de bruits que les oreilles s'emmêlent. Arrêtez-vous un instant, toi et ton adulte, loin de la rue. Sans bouger, écoute très fort et compte trois sons différents : peut-être un oiseau, une porte, des pas, une cloche ou une voix. Le plus difficile, c'est le son le plus discret. Tu as trente secondes. Ensuite, raconte-les à ton adulte. Chut..."
+          }
+        ],
+        "parc": [
+          {
+            "id": "e3-parc",
+            "voix": "heros",
+            "texte": "Deuxième mission ! Dans un parc, il y a des sons cachés partout. Arrêtez-vous un instant, toi et ton adulte. Sans bouger, écoute très fort. Compte trois sons différents : un oiseau, des feuilles qui bougent, un enfant qui rit, un chien qui aboie au loin... Essaie de trouver le son le plus petit, le plus discret. Tu as trente secondes. Ensuite, raconte-les à ton adulte. Chut... on écoute."
+          }
+        ],
+        "foret": [
+          {
+            "id": "e3-foret",
+            "voix": "heros",
+            "texte": "Deuxième mission ! La forêt, c'est le paradis des oreilles. Arrêtez-vous un instant sur le chemin, toi et ton adulte. Sans bouger, écoute très fort. Compte trois sons de la forêt : un oiseau, une branche qui craque, le vent dans les feuilles, peut-être un pic qui toque sur un arbre, toc toc toc. Tu as trente secondes. Ensuite, raconte-les à ton adulte. Chut... la forêt parle."
+          }
+        ],
+        "bord_eau": [
+          {
+            "id": "e3-bord-eau",
+            "voix": "heros",
+            "texte": "Deuxième mission ! Près de l'eau, il y a des sons qui clapotent. Arrêtez-vous un instant sur le chemin, toi et ton adulte, bien loin du bord. Sans bouger, écoute très fort. Compte trois sons différents : l'eau qui bouge, un canard qui râle, le vent, un vélo qui passe... Essaie de trouver le son de l'eau. Tu as trente secondes. Ensuite, raconte-les à ton adulte. Chut..."
+          }
+        ],
+        "campagne": [
+          {
+            "id": "e3-campagne",
+            "voix": "heros",
+            "texte": "Deuxième mission ! À la campagne, les sons voyagent très loin. Arrêtez-vous un instant sur le chemin, toi et ton adulte. Sans bouger, écoute très fort. Compte trois sons différents : un oiseau, des insectes, le vent dans l'herbe, un tracteur très loin, peut-être une vache qui dit bonjour. Tu as trente secondes. Ensuite, raconte-les à ton adulte. Chut... la campagne chuchote."
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4-vol-du-dragon",
+      "titre": "Le vol du dragon",
+      "type": "defi",
+      "declencheur": { "distanceM": 800, "ecartMinS": 90 },
+      "defi": {
+        "type": "physique",
+        "parentConfirme": false,
+        "attenteS": 25,
+        "bravo": {
+          "id": "e4-bravo",
+          "voix": "heros",
+          "texte": "Quel vol magnifique ! J'en ai le souffle coupé. Et voilà la troisième étincelle ! Je sens ma gorge qui chatouille. Plus qu'une, et ma flamme revient."
+        }
+      },
+      "variantes": {
+        "default": [
+          {
+            "id": "e4-default",
+            "voix": "heros",
+            "texte": "Troisième mission : le vol du dragon ! D'abord, ton adulte choisit un endroit sûr, sans voitures, tout près de lui. C'est lui le chef du terrain. Ensuite, ouvre grand tes bras comme des ailes, et fais dix grands pas de dragon en battant des ailes. Lentement, puis plus vite ! Et à la fin, pose-toi doucement comme un dragon qui atterrit, et fais un petit rugissement. Rrrrr ! À toi de jouer."
+          }
+        ],
+        "ville": [
+          {
+            "id": "e4-ville",
+            "voix": "heros",
+            "texte": "Troisième mission : le vol du dragon ! En ville, c'est ton adulte qui choisit un endroit sûr, loin des voitures, comme une place, une cour ou un large trottoir tranquille. Quand il dit c'est bon, ouvre grand tes bras comme des ailes, et fais dix grands pas de dragon en battant des ailes, sans t'éloigner de lui. À la fin, atterris doucement et fais ton plus beau rugissement. Rrrrr ! À toi de jouer."
+          }
+        ],
+        "parc": [
+          {
+            "id": "e4-parc",
+            "voix": "heros",
+            "texte": "Troisième mission : le vol du dragon ! Ton adulte choisit un endroit sûr dans le parc, sur l'herbe si c'est permis, tout près de lui. Quand il dit c'est bon, ouvre grand tes bras comme des ailes, et cours en faisant un petit cercle autour de ton adulte, en battant des ailes. Un tour, deux tours, trois tours ! Puis atterris doucement et fais ton plus beau rugissement. Rrrrr ! À toi de jouer."
+          }
+        ],
+        "foret": [
+          {
+            "id": "e4-foret",
+            "voix": "heros",
+            "texte": "Troisième mission : le vol du dragon des bois ! Ton adulte choisit un endroit sûr et plat sur le chemin, sans racines qui font trébucher, et tout près de lui. Quand il dit c'est bon, ouvre grand tes bras comme des ailes, et fais dix grands pas de dragon en battant des ailes, sans sortir du chemin. Puis atterris doucement, et rugis comme un dragon des bois. Rrrrr ! À toi de jouer."
+          }
+        ],
+        "bord_eau": [
+          {
+            "id": "e4-bord-eau",
+            "voix": "heros",
+            "texte": "Troisième mission : le vol du dragon ! Au bord de l'eau, on fait très attention. Ton adulte choisit un endroit sûr, loin du bord et loin des vélos, tout près de lui. Pas de course ici : on fait un vol sur place. Ouvre grand tes bras comme des ailes, bats des ailes dix fois en sautillant sur place, puis pose-toi doucement et fais ton plus beau rugissement. Rrrrr ! À toi de jouer."
+          }
+        ],
+        "campagne": [
+          {
+            "id": "e4-campagne",
+            "voix": "heros",
+            "texte": "Troisième mission : le vol du dragon ! À la campagne, il y a de la place, mais c'est ton adulte qui choisit un endroit sûr, sur le chemin, loin des voitures et des tracteurs, tout près de lui. Quand il dit c'est bon, ouvre grand tes bras comme des ailes, et fais dix grands pas de dragon en battant des ailes. Puis atterris doucement et fais un rugissement qui résonne. Rrrrr ! À toi de jouer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5-danse-du-feu",
+      "titre": "La danse du feu",
+      "type": "defi",
+      "declencheur": { "distanceM": 1050, "ecartMinS": 90 },
+      "defi": {
+        "type": "mouvement",
+        "parentConfirme": false,
+        "attenteS": 25,
+        "bravo": {
+          "id": "e5-bravo",
+          "voix": "heros",
+          "texte": "Ça y est ! La quatrième étincelle ! Ça chauffe, ça chauffe, ça... attends... je crois que..."
+        }
+      },
+      "variantes": {
+        "default": [
+          {
+            "id": "e5-default",
+            "voix": "heros",
+            "texte": "Dernière mission : la danse du feu ! Arrêtez-vous un instant, toi et ton adulte. Tu restes sur place, pas besoin de bouger les pieds. On danse avec le haut du corps ! D'abord, tes mains font les petites flammes, elles tremblent tout en haut. Ensuite, les bras ondulent comme un grand feu. Et pour finir, tu tournes doucement sur toi-même, une seule fois. Ton adulte peut danser aussi, ça compte double !"
+          }
+        ],
+        "ville": [
+          {
+            "id": "e5-ville",
+            "voix": "heros",
+            "texte": "Dernière mission : la danse du feu ! Arrêtez-vous dans un coin tranquille du trottoir, toi et ton adulte. Tu restes sur place. Les gens vont peut-être sourire, et c'est très bien : un sourire, c'est une étincelle aussi. D'abord, tes mains font les petites flammes qui tremblent. Ensuite, les bras ondulent comme un grand feu. Pour finir, tourne doucement sur toi-même, une seule fois. Ton adulte peut danser aussi !"
+          }
+        ],
+        "parc": [
+          {
+            "id": "e5-parc",
+            "voix": "heros",
+            "texte": "Dernière mission : la danse du feu ! Arrêtez-vous un instant, toi et ton adulte. Tu restes sur place, les pieds bien plantés comme les racines d'un arbre. D'abord, tes mains font les petites flammes qui tremblent tout en haut. Ensuite, tes bras ondulent comme un grand feu dans le vent. Pour finir, tourne doucement sur toi-même, une seule fois. Si les arbres pouvaient applaudir, ils le feraient !"
+          }
+        ],
+        "foret": [
+          {
+            "id": "e5-foret",
+            "voix": "heros",
+            "texte": "Dernière mission : la danse du feu ! Mais attention, en forêt, on ne fait jamais de vrai feu. Seulement une danse ! Arrêtez-vous sur le chemin, toi et ton adulte. Tu restes sur place. Tes mains font les petites flammes qui tremblent. Tes bras ondulent comme un grand feu. Puis tu te balances doucement, comme les grands arbres dans le vent. Les écureuils vont être jaloux !"
+          }
+        ],
+        "bord_eau": [
+          {
+            "id": "e5-bord-eau",
+            "voix": "heros",
+            "texte": "Dernière mission : la danse du feu au bord de l'eau ! C'est très rare, un feu qui danse près de l'eau. Arrêtez-vous un instant sur le chemin, loin du bord, toi et ton adulte. Tu restes sur place. Tes mains font les petites flammes qui tremblent. Tes bras ondulent comme les vagues et comme le feu en même temps. Pour finir, un petit salut, comme un artiste. Bravo !"
+          }
+        ],
+        "campagne": [
+          {
+            "id": "e5-campagne",
+            "voix": "heros",
+            "texte": "Dernière mission : la danse du feu ! Arrêtez-vous sur le chemin, toi et ton adulte. Tu restes sur place. Le public, ce sont les oiseaux, les fleurs et peut-être une vache très curieuse. D'abord, tes mains font les petites flammes qui tremblent. Ensuite, tes bras ondulent comme un grand feu. Pour finir, tourne doucement sur toi-même, une seule fois, et salue ton public."
+          }
+        ]
+      }
+    }
+  ],
+  "conclusionEcartS": 20,
+  "conclusion": {
+    "id": "conclusion",
+    "voix": "heros",
+    "texte": "Fffff... FRRRRROUUUUH ! Tu as vu ? Tu as vu ?! Ma flamme est revenue ! Elle est rouge, elle est orange, elle est magnifique ! Merci, merci, merci ! Grâce à toi, je suis de nouveau un vrai dragon. Tu as des yeux de détective, des oreilles de dragon et des ailes de champion. Maintenant, je dois rentrer dans ma montagne pour montrer ça à ma grand-mère. Mais je reviendrai, promis. La prochaine fois que tu sors te promener, regarde bien autour de toi. Je ne suis peut-être pas très loin. Au revoir, mon ami !"
+  }
+}

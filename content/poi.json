@@ -1,0 +1,101 @@
+{
+  "provisoire": true,
+  "lignes": {
+    "statue": [
+      {
+        "id": "statue-1",
+        "voix": "heros",
+        "texte": "Hé, je crois qu'il y a une statue tout près de nous ! Elle ne bouge pas d'un poil. Moi, j'ai essayé de faire la statue une fois : j'ai tenu trois secondes, et j'ai éternué. Est-ce que tu arrives à faire la statue aussi longtemps qu'elle ? Un, deux, trois... statue !"
+      },
+      {
+        "id": "statue-2",
+        "voix": "heros",
+        "texte": "Regarde, il y a une statue juste à côté ! Je me demande à quoi elle pense, toute la journée, sans bouger. Peut-être à son goûter. Si elle pouvait parler, qu'est-ce qu'elle te dirait, à ton avis ? Raconte-le à ton adulte."
+      }
+    ],
+    "plan_eau": [
+      {
+        "id": "plan-eau-1",
+        "voix": "heros",
+        "texte": "Oh, de l'eau, juste à côté de nous ! On la regarde de loin, hein, les dragons de feu n'aiment pas trop se mouiller. Est-ce que tu vois un reflet dedans ? Un nuage, un arbre, ou peut-être un canard qui fait le malin ?"
+      },
+      {
+        "id": "plan-eau-2",
+        "voix": "heros",
+        "texte": "Tiens, il y a de l'eau tout près ! Écoute bien, sans bouger de ta place. Est-ce qu'elle fait un bruit ? Plic, ploc, ou rien du tout ? Moi, quand je suis près de l'eau, je garde mes pattes bien au sec, à côté de mon adulte dragon."
+      }
+    ],
+    "foret": [
+      {
+        "id": "foret-1",
+        "voix": "heros",
+        "texte": "Ça sent la forêt par ici ! Tu sens ? Ça sent la mousse, le bois et la terre mouillée. Prends une grande inspiration de dragon, par le nez... et souffle doucement. Voilà. Tu as maintenant de l'air de forêt dans les poumons."
+      },
+      {
+        "id": "foret-2",
+        "voix": "heros",
+        "texte": "Des arbres, plein d'arbres, juste là ! Est-ce que tu vois le plus grand ? Lève la tête, tout en haut. Mon arrière-grand-père disait que les arbres sont les seuls êtres plus vieux que les dragons. Respect, les arbres."
+      }
+    ],
+    "fontaine": [
+      {
+        "id": "fontaine-1",
+        "voix": "heros",
+        "texte": "J'entends de l'eau qui coule... Il y a une fontaine tout près ! Une fontaine, c'est une petite rivière qui a décidé de rester au même endroit. Ferme les yeux deux secondes, et écoute-la chanter."
+      },
+      {
+        "id": "fontaine-2",
+        "voix": "heros",
+        "texte": "Une fontaine, juste à côté de nous ! Si j'étais un dragon d'eau, je ferais pareil : pschhh ! Mais je suis un dragon de feu, alors moi je ferais fffff. Fais le bruit de la fontaine, et puis le bruit du dragon. Lequel est le plus drôle ?"
+      }
+    ],
+    "monument": [
+      {
+        "id": "monument-1",
+        "voix": "heros",
+        "texte": "Il y a un monument juste à côté ! Un monument, c'est une grosse chose qui se souvient d'une histoire très ancienne. Demande à ton adulte s'il sait ce qu'il raconte. Et s'il ne sait pas, inventez une histoire ensemble !"
+      },
+      {
+        "id": "monument-2",
+        "voix": "heros",
+        "texte": "Ouh, un monument tout près ! Il a l'air très sérieux. Moi, si on me faisait un monument, je voudrais qu'on me sculpte en train d'éternuer. Toi, tu voudrais qu'on te sculpte en train de faire quoi ?"
+      }
+    ],
+    "point_de_vue": [
+      {
+        "id": "point-de-vue-1",
+        "voix": "heros",
+        "texte": "On dirait qu'on peut voir très loin, d'ici ! Les dragons adorent les endroits d'où l'on voit loin. Avec ton adulte, cherchez la chose la plus lointaine que vous pouvez voir. Un toit, une colline, un nuage ?"
+      },
+      {
+        "id": "point-de-vue-2",
+        "voix": "heros",
+        "texte": "Quelle vue ! Si j'avais ma flamme, je volerais tout là-haut pour tout regarder. En attendant, compte avec tes yeux combien de couleurs différentes tu vois dans le paysage. Moi, j'en compte au moins cinq."
+      }
+    ],
+    "arbre_remarquable": [
+      {
+        "id": "arbre-1",
+        "voix": "heros",
+        "texte": "Il y a un arbre très spécial juste à côté de nous ! Un arbre remarquable, ça veut dire qu'il est très vieux, ou très grand, ou très beau. Peut-être les trois ! Est-ce que tu arrives à le reconnaître parmi les autres ?"
+      },
+      {
+        "id": "arbre-2",
+        "voix": "heros",
+        "texte": "Un arbre remarquable, tout près ! Il a sûrement des centaines d'histoires dans son tronc. Si tu lui faisais un câlin, avec ton adulte, est-ce que vos bras feraient tout le tour ? Ça, c'est une mission bonus."
+      }
+    ],
+    "aire_de_jeux": [
+      {
+        "id": "aire-jeux-1",
+        "voix": "heros",
+        "texte": "Oh, une aire de jeux juste à côté ! Les dragons n'ont pas le droit sur les toboggans, parce que nos écailles font crrrrr. C'est trop injuste. Toi, tu préfères glisser sur le ventre ou sur les fesses ?"
+      },
+      {
+        "id": "aire-jeux-2",
+        "voix": "heros",
+        "texte": "Une aire de jeux, juste là ! Quel est ton jeu préféré ? La balançoire, le toboggan, le tourniquet ? Moi, c'est la balançoire, parce que j'ai l'impression de voler. Raconte-moi le tien en marchant."
+      }
+    ]
+  }
+}
