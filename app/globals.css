@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nuit: #050507;
+  --color-ardoise: #121218;
+  --color-braise: #f97316;
+  --color-flamme: #fde047;
+}
+
+html,
+body {
+  background: var(--color-nuit);
+  color: #e7e5e4;
+  color-scheme: dark;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Évite le zoom involontaire et la sélection de texte sur les gros boutons. */
+button {
+  touch-action: manipulation;
+  user-select: none;
+}

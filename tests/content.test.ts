@@ -137,10 +137,10 @@ describe("plan de génération", () => {
 
 describe("configuration et client ElevenLabs", () => {
   it("lit la configuration", () => {
-    const c = readConfig({ ELEVENLABS_MODEL: "eleven_flash_v2_5", ELEVENLABS_COST_PER_1K_CHARS: "0.2" } as NodeJS.ProcessEnv, false);
+    const c = readConfig({ ELEVENLABS_MODEL: "eleven_flash_v2_5", ELEVENLABS_COST_PER_1K_CHARS: "0.2" } as unknown as NodeJS.ProcessEnv, false);
     expect(c.costPer1kChars).toBe(0.2);
     expect(c.outputFormat).toBe("mp3_44100_64");
-    expect(readConfig({} as NodeJS.ProcessEnv, true).modelId).toBe("eleven_multilingual_v2");
+    expect(readConfig({} as unknown as NodeJS.ProcessEnv, true).modelId).toBe("eleven_multilingual_v2");
     expect(supportsLanguageCode("eleven_flash_v2_5")).toBe(true);
     expect(supportsLanguageCode("eleven_multilingual_v2")).toBe(false);
   });
@@ -175,5 +175,19 @@ describe("configuration et client ElevenLabs", () => {
     }).catch((e: TtsError) => e);
     expect(err).toBeInstanceOf(TtsError);
     expect((err as TtsError).fatal).toBe(true);
+  });
+});
+
+describe("retours anonymes", async () => {
+  const { FeedbackSchema } = await import("@/lib/feedback/schema");
+  const base = { questId: "q", environnement: "parc", dureeS: 600, distanceM: 900, note: 4, aBouge: true };
+  it("accepte un retour valide", () => expect(FeedbackSchema.safeParse(base).success).toBe(true));
+  it("refuse tout champ en plus (position, identifiant...)", () => {
+    expect(FeedbackSchema.safeParse({ ...base, lat: 48.8 }).success).toBe(false);
+    expect(FeedbackSchema.safeParse({ ...base, userId: "abc" }).success).toBe(false);
+  });
+  it("borne la note et le commentaire", () => {
+    expect(FeedbackSchema.safeParse({ ...base, note: 6 }).success).toBe(false);
+    expect(FeedbackSchema.safeParse({ ...base, commentaire: "x".repeat(1001) }).success).toBe(false);
   });
 });
