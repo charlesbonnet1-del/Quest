@@ -1,0 +1,125 @@
+{
+ "version": 0.6,
+ "generator": "fixture (tracé à la main)",
+ "elements": [
+  {
+   "type": "way",
+   "id": 3000,
+   "tags": {
+    "landuse": "residential"
+   },
+   "geometry": [
+    {
+     "lat": 48.86,
+     "lon": 2.343
+    },
+    {
+     "lat": 48.86,
+     "lon": 2.353
+    },
+    {
+     "lat": 48.872,
+     "lon": 2.353
+    },
+    {
+     "lat": 48.872,
+     "lon": 2.343
+    },
+    {
+     "lat": 48.86,
+     "lon": 2.343
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 3001,
+   "tags": {
+    "landuse": "retail",
+    "name": "Forum des Halles"
+   },
+   "geometry": [
+    {
+     "lat": 48.8605,
+     "lon": 2.344
+    },
+    {
+     "lat": 48.8605,
+     "lon": 2.347
+    },
+    {
+     "lat": 48.8618,
+     "lon": 2.347
+    },
+    {
+     "lat": 48.8618,
+     "lon": 2.344
+    },
+    {
+     "lat": 48.8605,
+     "lon": 2.344
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 3002,
+   "tags": {
+    "leisure": "garden",
+    "name": "Jardin Nelson Mandela"
+   },
+   "geometry": [
+    {
+     "lat": 48.8612,
+     "lon": 2.3405
+    },
+    {
+     "lat": 48.8612,
+     "lon": 2.3438
+    },
+    {
+     "lat": 48.863,
+     "lon": 2.3438
+    },
+    {
+     "lat": 48.863,
+     "lon": 2.3405
+    },
+    {
+     "lat": 48.8612,
+     "lon": 2.3405
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "id": 3003,
+   "lat": 48.86085,
+   "lon": 2.34805,
+   "tags": {
+    "amenity": "fountain",
+    "name": "Fontaine des Innocents"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3004,
+   "lat": 48.86945,
+   "lon": 2.35215,
+   "tags": {
+    "historic": "monument",
+    "name": "Porte Saint-Denis"
+   }
+  },
+  {
+   "type": "count",
+   "id": 0,
+   "tags": {
+    "nodes": "0",
+    "ways": "420",
+    "relations": "0",
+    "total": "420"
+   }
+  }
+ ]
+}

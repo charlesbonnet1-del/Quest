@@ -1,0 +1,134 @@
+{
+ "version": 0.6,
+ "generator": "fixture (tracé à la main)",
+ "elements": [
+  {
+   "type": "way",
+   "id": 5000,
+   "tags": {
+    "landuse": "farmland",
+    "crop": "wheat"
+   },
+   "geometry": [
+    {
+     "lat": 48.3,
+     "lon": 1.6
+    },
+    {
+     "lat": 48.3,
+     "lon": 1.62
+    },
+    {
+     "lat": 48.315,
+     "lon": 1.62
+    },
+    {
+     "lat": 48.315,
+     "lon": 1.6
+    },
+    {
+     "lat": 48.3,
+     "lon": 1.6
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 5001,
+   "tags": {
+    "landuse": "farmland"
+   },
+   "geometry": [
+    {
+     "lat": 48.3,
+     "lon": 1.62
+    },
+    {
+     "lat": 48.3,
+     "lon": 1.64
+    },
+    {
+     "lat": 48.315,
+     "lon": 1.64
+    },
+    {
+     "lat": 48.315,
+     "lon": 1.62
+    },
+    {
+     "lat": 48.3,
+     "lon": 1.62
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 5002,
+   "tags": {
+    "landuse": "meadow"
+   },
+   "geometry": [
+    {
+     "lat": 48.315,
+     "lon": 1.6
+    },
+    {
+     "lat": 48.315,
+     "lon": 1.615
+    },
+    {
+     "lat": 48.32,
+     "lon": 1.615
+    },
+    {
+     "lat": 48.32,
+     "lon": 1.6
+    },
+    {
+     "lat": 48.315,
+     "lon": 1.6
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 5003,
+   "tags": {
+    "landuse": "residential",
+    "name": "Hameau"
+   },
+   "geometry": [
+    {
+     "lat": 48.316,
+     "lon": 1.621
+    },
+    {
+     "lat": 48.316,
+     "lon": 1.626
+    },
+    {
+     "lat": 48.32,
+     "lon": 1.626
+    },
+    {
+     "lat": 48.32,
+     "lon": 1.621
+    },
+    {
+     "lat": 48.316,
+     "lon": 1.621
+    }
+   ]
+  },
+  {
+   "type": "count",
+   "id": 0,
+   "tags": {
+    "nodes": "0",
+    "ways": "4",
+    "relations": "0",
+    "total": "4"
+   }
+  }
+ ]
+}

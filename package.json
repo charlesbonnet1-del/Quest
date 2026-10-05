@@ -1,0 +1,55 @@
+{
+  "name": "quete",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "content:lint": "tsx scripts/content-lint.ts",
+    "audio:generate": "tsx scripts/audio-generate.ts",
+    "sim:replay": "tsx scripts/sim-replay.ts",
+    "test:e2e": "node scripts/e2e-sim.mjs",
+    "fixtures:generate": "tsx scripts/make-fixtures.ts"
+  },
+  "dependencies": {
+    "@serwist/next": "^9.5.13",
+    "@vercel/blob": "^2.8.0",
+    "idb-keyval": "^6.3.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "serwist": "^9.5.13",
+    "suncalc": "^2.1.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/suncalc": "^1.9.2",
+    "fake-indexeddb": "^6.2.5",
+    "playwright-core": "~1.56.1",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

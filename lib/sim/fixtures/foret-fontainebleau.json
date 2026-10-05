@@ -1,0 +1,204 @@
+{
+ "version": 0.6,
+ "generator": "fixture (tracé à la main)",
+ "elements": [
+  {
+   "type": "relation",
+   "id": 4000,
+   "tags": {
+    "type": "multipolygon",
+    "landuse": "forest",
+    "name": "Forêt de Fontainebleau"
+   },
+   "members": [
+    {
+     "type": "way",
+     "ref": 4001,
+     "role": "outer",
+     "geometry": [
+      {
+       "lat": 48.39,
+       "lon": 2.65
+      },
+      {
+       "lat": 48.39,
+       "lon": 2.71
+      },
+      {
+       "lat": 48.43,
+       "lon": 2.71
+      }
+     ]
+    },
+    {
+     "type": "way",
+     "ref": 4002,
+     "role": "outer",
+     "geometry": [
+      {
+       "lat": 48.43,
+       "lon": 2.71
+      },
+      {
+       "lat": 48.43,
+       "lon": 2.65
+      },
+      {
+       "lat": 48.39,
+       "lon": 2.65
+      }
+     ]
+    },
+    {
+     "type": "way",
+     "ref": 4003,
+     "role": "inner",
+     "geometry": [
+      {
+       "lat": 48.408,
+       "lon": 2.68
+      },
+      {
+       "lat": 48.408,
+       "lon": 2.683
+      },
+      {
+       "lat": 48.41,
+       "lon": 2.683
+      },
+      {
+       "lat": 48.41,
+       "lon": 2.68
+      },
+      {
+       "lat": 48.408,
+       "lon": 2.68
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 4004,
+   "tags": {
+    "natural": "water",
+    "name": "Mare aux Fées"
+   },
+   "geometry": [
+    {
+     "lat": 48.41527,
+     "lon": 2.665
+    },
+    {
+     "lat": 48.415234,
+     "lon": 2.665203
+    },
+    {
+     "lat": 48.415135,
+     "lon": 2.665352
+    },
+    {
+     "lat": 48.415,
+     "lon": 2.665406
+    },
+    {
+     "lat": 48.414865,
+     "lon": 2.665352
+    },
+    {
+     "lat": 48.414766,
+     "lon": 2.665203
+    },
+    {
+     "lat": 48.41473,
+     "lon": 2.665
+    },
+    {
+     "lat": 48.414766,
+     "lon": 2.664797
+    },
+    {
+     "lat": 48.414865,
+     "lon": 2.664648
+    },
+    {
+     "lat": 48.415,
+     "lon": 2.664594
+    },
+    {
+     "lat": 48.415135,
+     "lon": 2.664648
+    },
+    {
+     "lat": 48.415234,
+     "lon": 2.664797
+    },
+    {
+     "lat": 48.41527,
+     "lon": 2.665
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "id": 4005,
+   "lat": 48.42,
+   "lon": 2.69,
+   "tags": {
+    "tourism": "viewpoint",
+    "name": "Point de vue du Cassepot"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4006,
+   "lat": 48.401,
+   "lon": 2.672,
+   "tags": {
+    "natural": "tree",
+    "denotation": "natural_monument",
+    "name": "Chêne Jupiter"
+   }
+  },
+  {
+   "type": "way",
+   "id": 4007,
+   "tags": {
+    "landuse": "residential"
+   },
+   "geometry": [
+    {
+     "lat": 48.395,
+     "lon": 2.71
+    },
+    {
+     "lat": 48.395,
+     "lon": 2.73
+    },
+    {
+     "lat": 48.41,
+     "lon": 2.73
+    },
+    {
+     "lat": 48.41,
+     "lon": 2.71
+    },
+    {
+     "lat": 48.395,
+     "lon": 2.71
+    }
+   ]
+  },
+  {
+   "type": "count",
+   "id": 0,
+   "tags": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  }
+ ]
+}

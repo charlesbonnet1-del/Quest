@@ -1,0 +1,16 @@
+{
+ "version": 0.6,
+ "generator": "fixture (tracé à la main)",
+ "elements": [
+  {
+   "type": "count",
+   "id": 0,
+   "tags": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  }
+ ]
+}
